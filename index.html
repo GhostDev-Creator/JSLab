@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Lab</title>
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 class="lab-title">Laboratório de JavaScript</h1>
+
+    <div class="main-container">
+        <section>
+            <h2>1. Positivo ou Negativo</h2>
+            <label for="numeroPosNeg">Informe um número:</label>
+            <input type="number" id="numeroPosNeg" name="numeroPosNeg" />
+            <button onclick="validarPosNeg()">Validar</button>
+            <p id="res-1"></p>
+        </section>
+
+        <section>
+            <h2>2. Número = Mês</h2>
+            <label for="mesInput">Informe um número (referente a um mês):</label>
+            <input type="number" id="mesInput" name="mesInput" />
+            <button onclick="validarMes()">Validar</button>
+            <p id="res-2"></p>
+        </section>
+
+        <section>
+            <h2>3. Ano = Bissexto</h2>
+            <label for="anoInput">Informe um número (referente a um ano):</label>
+            <input type="number" id="anoInput" name="anoInput" />
+            <button onclick="validarAno()">Validar</button>
+            <p id="res-3"></p>
+        </section>
+
+        <section>
+            <h2>4. Triângulo: equilátero, isósceles e escaleno</h2>
+            <label for="ladoAInput">Informe o 1° lado do triângulo:</label>
+            <input type="number" id="ladoAInput" name="ladoAInput" />
+            <label for="ladoBInput">Informe o 2° lado do triângulo:</label>
+            <input type="number" id="ladoBInput" name="ladoBInput" />
+            <label for="ladoCInput">Informe o 3° lado do triângulo:</label>
+            <input type="number" id="ladoCInput" name="ladoCInput" />
+            <button onclick="validarLados()">Validar</button>
+            <p id="res-4"></p>
+        </section>
+
+        <section>
+            <h2>5. Nota = aprovado, reprovado, recuperação</h2>
+            <label for="notaInput">Informe a nota de um aluno (0 a 10):</label>
+            <input type="number" id="notaInput" name="notaInput" />
+            <button onclick="validarNota()">Validar</button>
+            <p id="res-5"></p>
+        </section>
+
+        <section>
+            <h2>6. Palavra = palíndromo</h2>
+            <label for="palavraInput">Informe uma palavra:</label>
+            <input type="text" id="palavraInput" name="palavraInput" />
+            <button onclick="validarPalindromo()">Validar</button>
+            <p id="res-6"></p>
+        </section>
+
+        <section>
+            <h2>7. Usuário: maior ou menor de idade</h2>
+            <label for="idadeInput_7">Informe a idade:</label>
+            <input type="number" id="idadeInput_7" name="idadeInput_7" />
+            <button onclick="validarIdade_7()">Validar</button>
+            <p id="res-7"></p>
+        </section>
+
+        <section>
+            <h2>8. Número = positivo, negativo, zero</h2>
+            <label for="numeroInput_8">Informe um número:</label>
+            <input type="number" id="numeroInput_8" name="numeroInput_8" />
+            <button onclick="validarNumero_8()">Validar</button>
+            <p id="res-8"></p>
+        </section>
+
+        <section>
+            <h2>9. Aluno = aprovado ou reprovado</h2>
+            <label for="notaInput_9">Informe a nota do aluno:</label>
+            <input type="number" id="notaInput_9" name="notaInput_9" />
+            <button onclick="validarNota_9()">Validar</button>
+            <p id="res-9"></p>
+        </section>
+
+        <section>
+            <h2>10. Número = par ou ímpar</h2>
+            <label for="numeroInput_10">Informe um número:</label>
+            <input type="number" id="numeroInput_10" name="numeroInput_10" />
+            <button onclick="validarNumero_10()">Validar</button>
+            <p id="res-10"></p>
+        </section>
+
+        <section>
+            <h2>11. Valor é maior ou menor que outro</h2>
+            <label for="numeroAInput_11">Informe o 1° número:</label>
+            <input type="number" id="numeroAInput_11" name="numeroAInput_11" />
+            <label for="numeroBInput_11">Informe o 2° número:</label>
+            <input type="number" id="numeroBInput_11" name="numeroBInput_11" />
+            <button onclick="validarMaior_11()">Validar</button>
+            <p id="res-11"></p>
+        </section>
+
+        <section>
+            <h2>12. Cálculo desconto dependente do valor</h2>
+            <label for="valorInput_12">Informe um número:</label>
+            <input type="number" id="valorInput_12" name="valorInput_12" />
+            <button onclick="validarDesconto_12()">Validar</button>
+            <p id="res-12"></p>
+        </section>
+
+        <section>
+            <h2>13. Senha = correto ou incorreto</h2>
+            <label for="senhaInput_13">Informe um número:</label>
+            <input type="number" id="senhaInput_13" name="senhaInput_13" />
+            <button onclick="validarSenha_13()">Validar</button>
+            <p id="res-13"></p>
+        </section>
+
+        <section>
+            <h2>14. Usuário = criança, adolescente ou adulto</h2>
+            <label for="idadeInput_14">Informe a idade:</label>
+            <input type="number" id="idadeInput_14" name="idadeInput_14" />
+            <button onclick="validarIdade_14()">Validar</button>
+            <p id="res-14"></p>
+        </section>
+
+        <section>
+            <h2>15. Nota: número = letra</h2>
+            <label for="notaInput_15">Informe uma nota:</label>
+            <input type="number" id="notaInput_15" name="notaInput_15" />
+            <button onclick="validarNota_15()">Validar</button>
+            <p id="res-15"></p>
+        </section>
+
+        <section>
+            <h2>16. Usuário = pode votar ou não</h2>
+            <label for="idadeInput_16">Informe a idade:</label>
+            <input type="number" id="idadeInput_16" name="idadeInput_16" />
+            <button onclick="validarIdade_16()">Validar</button>
+            <p id="res-16"></p>
+        </section>
+    </div>
+
+    <footer class="paginacao">
+        <div class="pagination-wrapper">
+            <a href="index.html" class="active">1</a>
+            <a href="index2.html">2</a>
+            <a href="index3.html">3</a>
+            <a href="index4.html">4</a>
+            <a href="index5.html">5</a>
+        </div>
+    </footer>
+</body>
+</html>
