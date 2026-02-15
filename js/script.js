@@ -1,4 +1,8 @@
-// 1. Positivo ou Negativo
+/**
+ * // 1. Positivo ou Negativo
+ * Verifica se o número inserido é positivo, negativo ou zero.
+ * @returns {void} Atualiza o elemento #res-1 com o resultado.
+ */
 function validarPosNeg() {
     let numero = document.getElementById('numeroPosNeg');
     if (numero instanceof HTMLInputElement) {
@@ -14,7 +18,11 @@ function validarPosNeg() {
     }
 }
 
-// 2. Número = Mês
+/**
+ * // 2. Número = Mês
+ * Converte um número de 1 a 12 no nome do mês correspondente.
+ * @returns {void} Atualiza o elemento #res-2 com o nome do mês.
+ */
 function validarMes() {
     let mes = document.getElementById('mesInput');
     if (mes instanceof HTMLInputElement) {
@@ -38,7 +46,11 @@ function validarMes() {
     }
 }
 
-// 3. Ano = Bissexto
+/**
+ * // 3. Ano = Bissexto
+ * Verifica se o ano informado é bissexto (divisível por 4).
+ * @returns {void} Atualiza o elemento #res-3.
+ */
 function validarAno() {
     let ano = document.getElementById('anoInput');
     if (ano instanceof HTMLInputElement) {
@@ -52,7 +64,11 @@ function validarAno() {
     }
 }
 
-// 4. Triângulo
+/**
+ * // 4. Triângulo
+ * Classifica um triângulo em Equilátero, Isósceles ou Escaleno com base nos três lados.
+ * @returns {void} Atualiza o elemento #res-4.
+ */
 function validarLados() {
     let numeroA = document.getElementById('ladoAInput');
     let numeroB = document.getElementById('ladoBInput');
@@ -72,7 +88,11 @@ function validarLados() {
     }
 }
 
-// 5. Nota
+/**
+ * // 5. Nota
+ * Avalia o status do aluno (Aprovado, Reprovado ou Recuperação) baseado na nota.
+ * @returns {void} Atualiza o elemento #res-5.
+ */
 function validarNota() {
     let nota = document.getElementById('notaInput');
     if (nota instanceof HTMLInputElement) {
@@ -88,7 +108,11 @@ function validarNota() {
     }
 }
 
-// 6. Palíndromo
+/**
+ * // 6. Palíndromo
+ * Verifica se a palavra lida é igual quando invertida.
+ * @returns {void} Exibe o resultado via alert.
+ */
 function validarPalindromo() {
     let inputPalavra = document.getElementById('palavraInput');
     let palavra = inputPalavra.value;
@@ -100,7 +124,11 @@ function validarPalindromo() {
     }
 }
 
-// 7. Idade Maior/Menor
+/**
+ * // 7. Idade Maior/Menor
+ * Verifica se o usuário tem 18 anos ou mais.
+ * @returns {void} Atualiza o elemento #res-7.
+ */
 function validarIdade_7() {
     let idade = document.getElementById('idadeInput_7');
     if (idade instanceof HTMLInputElement) {
@@ -114,7 +142,11 @@ function validarIdade_7() {
     }
 }
 
-// 8. Positivo/Negativo/Zero
+/**
+ * // 8. Positivo/Negativo/Zero
+ * Segunda versão da validação de polaridade numérica.
+ * @returns {void} Atualiza o elemento #res-8.
+ */
 function validarNumero_8() {
     let numero = document.getElementById('numeroInput_8');
     if (numero instanceof HTMLInputElement) {
@@ -130,7 +162,11 @@ function validarNumero_8() {
     }
 }
 
-// 9. Aprovado/Reprovado
+/**
+ * // 9. Aprovado/Reprovado
+ * Verifica aprovação com nota mínima 6.
+ * @returns {void} Atualiza o elemento #res-9.
+ */
 function validarNota_9() {
     let nota = document.getElementById('notaInput_9');
     if (nota instanceof HTMLInputElement) {
@@ -144,7 +180,11 @@ function validarNota_9() {
     }
 }
 
-// 10. Par/Ímpar
+/**
+ * // 10. Par/Ímpar
+ * Verifica se um número é divisível por 2.
+ * @returns {void} Atualiza o elemento #res-10.
+ */
 function validarNumero_10() {
     let numero = document.getElementById('numeroInput_10');
     if (numero instanceof HTMLInputElement) {
@@ -158,7 +198,11 @@ function validarNumero_10() {
     }
 }
 
-// 11. Maior que outro
+/**
+ * // 11. Maior que outro
+ * Compara dois números e indica qual deles é o maior.
+ * @returns {void} Atualiza o elemento #res-11.
+ */
 function validarMaior_11() {
     let numeroA = document.getElementById('numeroAInput_11');
     let numeroB = document.getElementById('numeroBInput_11');
@@ -174,7 +218,11 @@ function validarMaior_11() {
     }
 }
 
-// 12. Desconto
+/**
+ * // 12. Desconto
+ * Aplica 10% de desconto se o valor for igual ou superior a 100.
+ * @returns {void} Atualiza o elemento #res-12 com o preço final.
+ */
 function validarDesconto_12() {
     let valor = document.getElementById('valorInput_12');
     if (valor instanceof HTMLInputElement) {
@@ -189,7 +237,11 @@ function validarDesconto_12() {
     }
 }
 
-// 13. Senha
+/**
+ * // 13. Senha
+ * Verifica se a senha numérica inserida corresponde ao código 1234.
+ * @returns {void} Atualiza o elemento #res-13.
+ */
 function validarSenha_13() {
     let senha = document.getElementById('senhaInput_13');
     if (senha instanceof HTMLInputElement) {
@@ -204,7 +256,11 @@ function validarSenha_13() {
     }
 }
 
-// 14. Faixa Etária
+/**
+ * // 14. Faixa Etária
+ * Classifica o usuário entre Criança, Adolescente ou Adulto.
+ * @returns {void} Atualiza o elemento #res-14.
+ */
 function validarIdade_14() {
     let idade = document.getElementById('idadeInput_14');
     if (idade instanceof HTMLInputElement) {
@@ -220,7 +276,11 @@ function validarIdade_14() {
     }
 }
 
-// 15. Nota Letra
+/**
+ * // 15. Nota Letra
+ * Converte uma nota numérica em escala de letras (A, B, C ou D).
+ * @returns {void} Atualiza o elemento #res-15.
+ */
 function validarNota_15() {
     let nota = document.getElementById('notaInput_15');
     if (nota instanceof HTMLInputElement) {
@@ -238,7 +298,11 @@ function validarNota_15() {
     }
 }
 
-// 16. Votação
+/**
+ * // 16. Votação
+ * Verifica se o usuário tem idade mínima para votar (16 anos).
+ * @returns {void} Atualiza o elemento #res-16.
+ */
 function validarIdade_16() {
     let idade = document.getElementById('idadeInput_16');
     if (idade instanceof HTMLInputElement) {
