@@ -10,8 +10,6 @@ O projeto foi estruturado para ser uma vitrine de habilidades em lógica de prog
 - **Lógica Modular:** Cada card aciona uma função JavaScript dedicada no arquivo principal.
 - **Documentação Profissional:** Uso de **JSDoc** para descrever o funcionamento de cada sistema.
 
-
-
 ---
 
 ## 🛠️ Sistemas Implementados (Cards)
@@ -43,6 +41,14 @@ Para manter o projeto escalável e limpo, foram aplicados os seguintes princípi
  * @returns {void}
  */
 ```
+
+## 🌐 Acesso ao Projeto Publicado
+
+O projeto está hospedado e acessível publicamente através do GitHub Pages.
+
+**Link de Acesso:**
+
+[https://ghostdev-creator.github.io/JSLab/](https://ghostdev-creator.github.io/JSLab/)
 
 ---
 
