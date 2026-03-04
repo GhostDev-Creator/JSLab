@@ -144,3 +144,16 @@ footer.paginacao {
     background-color: #1a73e8;
     color: white;
 }
+
+section ul {
+    list-style: none;
+    text-align: left;
+    width: 100%;
+}
+section li {
+    background: #e8f0fe;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
